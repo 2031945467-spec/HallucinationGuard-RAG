@@ -1,0 +1,58 @@
+[
+  {
+    "method":"RAG_CoVe",
+    "method_cn":"RAG + CoVe",
+    "total_samples":100,
+    "correct_count":12,
+    "hallucination_count":2,
+    "answered_count":14,
+    "error_count":0,
+    "accuracy":0.12,
+    "hallucination_rate":0.1429,
+    "coverage_rate":0.14,
+    "error_rate":0.0,
+    "avg_latency":0.0004
+  },
+  {
+    "method":"RAG_Verify",
+    "method_cn":"RAG + 事实验证",
+    "total_samples":100,
+    "correct_count":53,
+    "hallucination_count":11,
+    "answered_count":64,
+    "error_count":0,
+    "accuracy":0.53,
+    "hallucination_rate":0.1719,
+    "coverage_rate":0.64,
+    "error_rate":0.0,
+    "avg_latency":0.0003
+  },
+  {
+    "method":"RAG",
+    "method_cn":"RAG 基线",
+    "total_samples":100,
+    "correct_count":57,
+    "hallucination_count":25,
+    "answered_count":82,
+    "error_count":0,
+    "accuracy":0.57,
+    "hallucination_rate":0.3049,
+    "coverage_rate":0.82,
+    "error_rate":0.0,
+    "avg_latency":0.0005
+  },
+  {
+    "method":"Base_LLM",
+    "method_cn":"基础大模型",
+    "total_samples":100,
+    "correct_count":64,
+    "hallucination_count":36,
+    "answered_count":100,
+    "error_count":0,
+    "accuracy":0.64,
+    "hallucination_rate":0.36,
+    "coverage_rate":1.0,
+    "error_rate":0.0,
+    "avg_latency":2.6891
+  }
+]

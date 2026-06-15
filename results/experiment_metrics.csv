@@ -1,0 +1,5 @@
+﻿method,method_cn,total_samples,correct_count,hallucination_count,answered_count,error_count,accuracy,hallucination_rate,coverage_rate,error_rate,avg_latency
+RAG_CoVe,RAG + CoVe,100,12,2,14,0,0.12,0.1429,0.14,0.0,0.0004
+RAG_Verify,RAG + 事实验证,100,53,11,64,0,0.53,0.1719,0.64,0.0,0.0003
+RAG,RAG 基线,100,57,25,82,0,0.57,0.3049,0.82,0.0,0.0005
+Base_LLM,基础大模型,100,64,36,100,0,0.64,0.36,1.0,0.0,2.6891
